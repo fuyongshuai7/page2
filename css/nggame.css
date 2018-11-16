@@ -1,0 +1,194 @@
+body{
+    font-family: 微软雅黑;
+    font-size: 0;
+    background-color:rgb(242, 242, 242);
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+.top{
+    height: 20px;
+    font-size: 14px;
+    text-align: right;
+}
+.top a{
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+.tittle{
+    height: 120px;
+    background-color: white;
+}
+.tittleleft{
+    width: 40%;
+    height: 120px;
+    display: inline-block;
+    padding-top:17px;
+    vertical-align: middle;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.tittleimg{
+    width: 275px;
+    height: 120px;
+    background-image: url(../img/logo.png);
+    display:inline-block;
+    background-repeat: no-repeat;
+}
+.tittleright{
+    width: 60%;
+    line-height: 120px;
+    display: inline-block;
+    text-align: right;
+    vertical-align: middle;
+}
+.tittleright a{
+    text-decoration: none;
+    font-size: 30px;
+    margin: 20px;
+    color: black;
+}
+.tittlehover{
+    display: inline-block;
+}
+.tittlehover a:hover{
+    color: white;
+    background-color: red;
+    border-radius: 15%;
+}
+.scrolimage{
+    width: 100%;
+    height:450px;
+}
+.wrapper{
+    height: 450px;
+}
+.scrolimage-img{
+    /* display: block;
+    height: 450px;
+    width: 100%; */
+    overflow: hidden;
+}
+.scrolimage img{
+    transition-duration: 1s;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.scrolimage img:hover{
+    transform:scale(1.2);
+}
+.slider{
+    height: 450px;
+}
+.main{
+    width: 1250px;
+   height: 900px;
+   margin: auto;
+}
+.mt{
+    margin: 17px;
+}
+.textnewgame{
+    width: 50%;
+    height: 20px;
+    display: inline-block;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+.moreplus{
+    width: 50%;
+    height: 20px;
+    display: inline-block;
+    box-sizing: border-box;
+    font-size: 20px;
+    text-align: right;
+}
+
+.gl-1{
+    width: 380px;
+    /* background-image: url(../img/1499848725334.jpg); */
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-decoration: none;
+    background-color: white;
+    margin: 15px;
+}
+.gl-img{
+    width: 380px;
+    height: 170px;
+    overflow: hidden;
+}
+.gl-img img{
+    transition-duration: 1s;
+}
+.gl-img img:hover{
+    transform:scale(1.2);
+}
+.gl-1-name{
+    font-size: 20px;
+    box-sizing: border-box;
+    color: black;
+    border-bottom: 1px solid gainsboro;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 2;
+}
+.gl-1-des{
+    font-size: 18px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    display: inline;
+    color: black;
+    line-height: 2;
+}
+.gl-1:hover{
+    border: 1px solid red;
+    margin: 14px;
+    /* transform:scale(1.5) */
+}
+/* #gl1:hover{
+    transform:scale(1.5)
+} */
+.fendlylink{
+    height: 250px;
+}
+.fltittile{
+    height: 20px;
+    font-size: 20px;
+    margin: 17px;
+    margin-top: 0px;
+}
+.fllink{
+    height: 210px;
+    background-color: white;
+}
+.fll-bg{
+    width: 1250px;
+    height: 210px;
+    margin: auto;
+    line-height: 35px;
+    padding-top: 5px;
+}
+.fll-bg a{  
+    font-size: 20px;
+    text-decoration: none;
+    color:black;
+    margin: 35px;
+}
+.foot{
+    height: 210px;
+    background-color: lightblue;
+    margin: 0px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.foottext{
+    text-align: center;
+    padding-top: 20px;
+}
+.space{
+    margin-left: 30px;
+}
