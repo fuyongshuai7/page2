@@ -184,12 +184,6 @@
                 +'</a>'
     }
     $(".gamelist").html(listContent);
-    $(".gamelist").on("click", ".gl-1", function(e) {
-        var $ele = $(e.currentTarget);
-        var userid = $ele.data("some");
-        e.preventDefault();
-    })
-    // $(".gamelist").append(listContent)
 </script>
 <script>
     var mySwiper = new Swiper ('.scrolimage', {
